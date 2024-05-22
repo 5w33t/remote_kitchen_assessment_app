@@ -6,6 +6,8 @@ import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/message/bindings/message_binding.dart';
 import '../modules/message/views/message_view.dart';
+import '../modules/post/bindings/post_binding.dart';
+import '../modules/post/views/post_view.dart';
 
 part 'app_routes.dart';
 
@@ -29,6 +31,11 @@ class AppPages {
       name: _Paths.COUNTER,
       page: () => const CounterView(),
       binding: CounterBinding(),
+    ),
+    GetPage(
+      name: _Paths.POST,
+      page: () => const PostView(),
+      binding: PostBinding(),
     ),
   ];
 }

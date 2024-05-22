@@ -26,6 +26,11 @@ class HomeView extends GetView<HomeController> {
               page: Routes.COUNTER,
               buttonText: 'Navigate to Counter App',
             ),
+            SizedBox(height: 15),
+            CustomButton(
+              page: Routes.POST,
+              buttonText: 'Navigate to RestAPI Data Fetching',
+            ),
           ],
         ),
       ),
