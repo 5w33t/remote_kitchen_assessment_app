@@ -14,3 +14,17 @@ Tasks:
 
 ![App Screenshot](https://i.ibb.co/3cnVKPC/home-screen.png)
 ![App Screenshot](https://i.ibb.co/jfJD7WW/new-screen.png)
+
+
+# Assignment 2: State Management with GetX
+Objective: Enhance the Flutter app with state management using GetX.
+Tasks:
+1. Integrated GetX into the existing Flutter project.
+2. Created a counter app where pressing a button increases a counter.
+3. Used GetX to manage the state of the counter and update the UI accordingly.
+
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/VH7rjmt/counter-navigation.png)
+![App Screenshot](https://i.ibb.co/H70s83V/counter-0.png)
+![App Screenshot](https://i.ibb.co/rGw9P7v/counter-1.png)

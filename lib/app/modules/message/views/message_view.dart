@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class NewScreen extends StatelessWidget {
-  const NewScreen({super.key});
+import 'package:get/get.dart';
+import 'package:remote_kitchen_assessment_app/app/common/components/custom_scaffold.dart';
 
+import '../controllers/message_controller.dart';
+
+class MessageView extends GetView<MessageController> {
+  const MessageView({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('New Screen'),
-        centerTitle: true,
-        elevation: 2,
-      ),
+    return CustomScaffold(
+      title: 'New Screen',
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -18,7 +18,7 @@ class NewScreen extends StatelessWidget {
             Text(
               'Congrats!\nYou have navigated to a new screen!',
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyLarge,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ],
         ),

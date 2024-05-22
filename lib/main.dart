@@ -1,22 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:remote_kitchen_assessment_app/screens/home_screen.dart';
+
+import 'package:get/get.dart';
+
+import 'app/routes/app_pages.dart';
 
 void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Remote Kitchen Assessment',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-        useMaterial3: true,
-      ),
-      home: const HomeScreen(),
-    );
-  }
+  runApp(
+    GetMaterialApp(
+      title: "Remote Kitchen Assessment",
+      debugShowCheckedModeBanner: false,
+      initialRoute: AppPages.INITIAL,
+      getPages: AppPages.routes,
+    ),
+  );
 }
