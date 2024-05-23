@@ -8,12 +8,15 @@ import '../modules/message/bindings/message_binding.dart';
 import '../modules/message/views/message_view.dart';
 import '../modules/post/bindings/post_binding.dart';
 import '../modules/post/views/post_view.dart';
+import '../modules/user/bindings/user_binding.dart';
+import '../modules/user/views/user_view.dart';
 
 part 'app_routes.dart';
 
 class AppPages {
   AppPages._();
 
+  // ignore: constant_identifier_names
   static const INITIAL = Routes.HOME;
 
   static final routes = [
@@ -36,6 +39,11 @@ class AppPages {
       name: _Paths.POST,
       page: () => const PostView(),
       binding: PostBinding(),
+    ),
+    GetPage(
+      name: _Paths.USER,
+      page: () => const UserView(),
+      binding: UserBinding(),
     ),
   ];
 }

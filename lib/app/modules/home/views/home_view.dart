@@ -31,6 +31,11 @@ class HomeView extends GetView<HomeController> {
               page: Routes.POST,
               buttonText: 'Navigate to RestAPI Data Fetching',
             ),
+            SizedBox(height: 15),
+            CustomButton(
+              page: Routes.USER,
+              buttonText: 'Navigate to LocalDB Data Fetching',
+            ),
           ],
         ),
       ),

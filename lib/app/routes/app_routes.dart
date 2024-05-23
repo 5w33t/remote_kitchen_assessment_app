@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 part of 'app_pages.dart';
 
 abstract class Routes {
@@ -6,6 +8,7 @@ abstract class Routes {
   static const MESSAGE = _Paths.MESSAGE;
   static const COUNTER = _Paths.COUNTER;
   static const POST = _Paths.POST;
+  static const USER = _Paths.USER;
 }
 
 abstract class _Paths {
@@ -14,4 +17,5 @@ abstract class _Paths {
   static const MESSAGE = '/message';
   static const COUNTER = '/counter';
   static const POST = '/post';
+  static const USER = '/user';
 }

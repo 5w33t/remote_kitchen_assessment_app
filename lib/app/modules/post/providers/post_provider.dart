@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../post_model.dart';
+import '../models/post_model.dart';
 
 class PostProvider extends GetConnect {
   Future<List<Post>> fetchPosts() async {

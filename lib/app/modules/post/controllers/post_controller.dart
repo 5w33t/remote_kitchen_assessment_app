@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:remote_kitchen_assessment_app/app/modules/post/post_model.dart';
+import 'package:remote_kitchen_assessment_app/app/modules/post/models/post_model.dart';
 import 'package:remote_kitchen_assessment_app/app/modules/post/providers/post_provider.dart';
 
 class PostController extends GetxController {
