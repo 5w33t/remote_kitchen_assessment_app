@@ -4,7 +4,7 @@ This project is a part of <b>Remote Kitchen Technical Assessment - Flutter</b>
 # Assignment 4: Offline Capabilities with Local Storage
 Objective: Implement offline capabilities using local storage in the Flutter app.
 Tasks:
-1. Created a screen that fetches data from the REST API [JSONPlaceholder/users](https://jsonplaceholder.typicode.com/users) and displays it.
+1. Created a screen (user) that fetches data from the REST API [JSONPlaceholder/users](https://jsonplaceholder.typicode.com/users) and displays it.
 2. Implemented functionality to cache the fetched data locally using <b>Hive</b>, local database.
 3. Ensured the app can display the cached data when offline.
 4. Used GetX to manage the state of the data and offline capabilities.
