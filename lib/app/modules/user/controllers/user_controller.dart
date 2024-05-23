@@ -11,6 +11,7 @@ class UserController extends GetxController {
 
   final users = RxList<User>([]);
   final isFailed = RxBool(false);
+  // ignore: prefer_typing_uninitialized_variables
   var _userBox;
   @override
   void onInit() async {
@@ -24,14 +25,24 @@ class UserController extends GetxController {
       _userBox = await Hive.openBox<User>('users'); // Open box here
     } catch (error) {
       // Handle error opening the box (optional)
-      print('Error opening Hive box: $error');
+      Get.snackbar(
+        'An Error Occured',
+        'Please try again after some time',
+        icon: const Icon(
+          Icons.error,
+          color: Colors.white,
+        ),
+        backgroundColor: Colors.red.shade900,
+        colorText: Colors.blueGrey.shade100,
+        snackPosition: SnackPosition.BOTTOM,
+      );
     }
   }
 
   Future<void> saveUsers(List<User> users) async {
     await _userBox.clear(); // Clear previous data (optional)
     _userBox.addAll(users);
-    print('User Saved : $_userBox');
+    // print('User Saved : $_userBox');
   }
 
   List<User> getUsers() {
