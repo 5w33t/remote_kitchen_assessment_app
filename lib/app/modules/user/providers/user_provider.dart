@@ -8,7 +8,7 @@ class UserProvider extends GetConnect {
     if (response.status.code == 200) {
       return List<User>.from(response.body.map((item) => User.fromJson(item)));
     } else {
-      throw Exception('Failed to load posts');
+      throw Exception('Failed to load users');
     }
   }
 }

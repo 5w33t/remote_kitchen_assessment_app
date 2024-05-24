@@ -36,6 +36,11 @@ class HomeView extends GetView<HomeController> {
               page: Routes.USER,
               buttonText: 'Navigate to LocalDB Data Fetching',
             ),
+            SizedBox(height: 15),
+            CustomButton(
+              page: Routes.WEATHER,
+              buttonText: 'Navigate to Weather',
+            ),
           ],
         ),
       ),
