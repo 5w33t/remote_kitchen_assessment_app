@@ -1,6 +1,28 @@
 ## Project Info
 This project is a part of <b>Remote Kitchen Technical Assessment - Flutter</b>
 
+# Assignment 5: Third-Party API Integration
+Objective: Integrate a third-party API into your Flutter app.
+Tasks:
+1. Chose a third-party API - [Weather API](https://www.weatherapi.com/) 
+2. Created a screen (weather) that fetches data from the chosen API.
+3. Displayed the fetched data in a user-friendly manner. (Icons, animations and Texts)
+4. Ensured the integration uses GetX for state management.
+
+## Screenshots
+
+### Navigation
+![App Screenshot](https://i.ibb.co/HT3RQPK/weather.png)
+### Clear weather - Night (Dark Mode)
+![App Screenshot](https://i.ibb.co/7bfWT0Z/current-City.png)
+
+### Rainy weather - Night (Dark Mode)
+![App Screenshot](https://i.ibb.co/RbskLYT/rain.png)
+
+### Sunny weather - Day (Light Mode)
+![App Screenshot](https://i.ibb.co/YjDVY56/sunny.png)
+
+
 # Assignment 4: Offline Capabilities with Local Storage
 Objective: Implement offline capabilities using local storage in the Flutter app.
 Tasks:
@@ -9,6 +31,7 @@ Tasks:
 3. Ensured the app can display the cached data when offline.
 4. Used GetX to manage the state of the data and offline capabilities.
 
+## Screenshots
 ### Navigation
 ![App Screenshot](https://i.ibb.co/Jqw1QnZ/hive-3.png)
 ### Online - fetching from API

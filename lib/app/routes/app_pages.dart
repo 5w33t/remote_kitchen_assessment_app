@@ -10,6 +10,8 @@ import '../modules/post/bindings/post_binding.dart';
 import '../modules/post/views/post_view.dart';
 import '../modules/user/bindings/user_binding.dart';
 import '../modules/user/views/user_view.dart';
+import '../modules/weather/bindings/weather_binding.dart';
+import '../modules/weather/views/weather_view.dart';
 
 part 'app_routes.dart';
 
@@ -44,6 +46,11 @@ class AppPages {
       name: _Paths.USER,
       page: () => const UserView(),
       binding: UserBinding(),
+    ),
+    GetPage(
+      name: _Paths.WEATHER,
+      page: () => const WeatherView(),
+      binding: WeatherBinding(),
     ),
   ];
 }
