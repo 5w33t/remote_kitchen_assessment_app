@@ -15,9 +15,9 @@ class UserController extends GetxController {
   var _userBox;
   @override
   void onInit() async {
-    super.onInit();
     initialize();
     fetchUsers();
+    super.onInit();
   }
 
   Future<void> initialize() async {
@@ -40,8 +40,9 @@ class UserController extends GetxController {
   }
 
   Future<void> saveUsers(List<User> users) async {
-    await _userBox.clear(); // Clear previous data
+    await _userBox.clear(); // Clear previous data (optional)
     _userBox.addAll(users);
+    // print('User Saved : $_userBox');
   }
 
   List<User> getUsers() {

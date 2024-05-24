@@ -9,7 +9,6 @@ abstract class Routes {
   static const COUNTER = _Paths.COUNTER;
   static const POST = _Paths.POST;
   static const USER = _Paths.USER;
-  static const WEATHER = _Paths.WEATHER;
 }
 
 abstract class _Paths {
@@ -19,5 +18,4 @@ abstract class _Paths {
   static const COUNTER = '/counter';
   static const POST = '/post';
   static const USER = '/user';
-  static const WEATHER = '/weather';
 }
