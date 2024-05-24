@@ -1,1 +1,1 @@
-const weatherAPIKey = "5784b6ee6d724267b26135939242305";
+const weatherAPIKey = "your_api_key";
