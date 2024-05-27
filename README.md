@@ -1,6 +1,27 @@
 ## Project Info
 This project is a part of <b>Remote Kitchen Technical Assessment - Flutter</b>
 
+# Assignment 6: Location-Based Services and Notifications
+Objective: Integrate Google Maps into your Flutter app.
+Tasks:
+1. Configured Google Maps in the Flutter project (including API key configuration).
+2. Created a screen (map) with a Google Map widget.
+3. Integrated Google Maps and display the user's current location.
+4. Allowed users to set geofences on the map.
+5. Used background services to monitor geofence crossings. Used <b>Haversine distance</b> to check crossing.
+6. Allowed users to add markers to the map by tapping on it.
+7. Used GetX to manage the state of the markers.
+
+## Screenshots
+### Navigation
+![App Screenshot](https://i.ibb.co/jTG31Th/map-navigate.png)
+### Tap to add marker
+![App Screenshot](https://i.ibb.co/5WqLJbg/map-tap-to-add.png)
+### Current Location
+![App Screenshot](https://i.ibb.co/6bzfV0g/map-current-location.png)
+### Geofence crossing
+![App Screenshot](https://i.ibb.co/6nwyh9T/map-geofenced.png)
+
 # Assignment 5: Third-Party API Integration
 Objective: Integrate a third-party API into your Flutter app.
 Tasks:

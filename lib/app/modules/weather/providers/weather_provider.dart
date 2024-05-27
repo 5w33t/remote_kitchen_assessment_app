@@ -42,4 +42,5 @@ class WeatherProvider extends GetConnect {
     String? city = placemarks[0].locality ?? 'Rajshahi';
     return city.toString();
   }
+
 }

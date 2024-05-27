@@ -21,26 +21,32 @@ class HomeView extends GetView<HomeController> {
               page: Routes.MESSAGE,
               buttonText: 'Navigate to A New Screen',
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             CustomButton(
               page: Routes.COUNTER,
               buttonText: 'Navigate to Counter App',
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             CustomButton(
               page: Routes.POST,
               buttonText: 'Navigate to RestAPI Data Fetching',
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             CustomButton(
               page: Routes.USER,
               buttonText: 'Navigate to LocalDB Data Fetching',
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             CustomButton(
               page: Routes.WEATHER,
               buttonText: 'Navigate to Weather',
             ),
+            SizedBox(height: 10),
+            CustomButton(
+              page: Routes.MAP,
+              buttonText: 'Navigate to Map',
+            ),
+            
           ],
         ),
       ),
