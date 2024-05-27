@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250664589177",
+    "project_id": "remote-kitchen-6967d",
+    "storage_bucket": "remote-kitchen-6967d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250664589177:android:9063f6fce1c5dc3ad3c1a8",
+        "android_client_info": {
+          "package_name": "com.example.remote_kitchen_assessment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGIObTOL7PCSs_of2iJGrSqFQy8X_c21g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

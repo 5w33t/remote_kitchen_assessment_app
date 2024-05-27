@@ -22,6 +22,8 @@ dependencies:
   location: ^6.0.2
   flutter_polyline_points: ^2.0.0
   firebase_core: ^2.31.1
+  firebase_messaging: ^14.9.3
+  flutter_local_notifications: ^17.1.2
 
 dev_dependencies: 
   flutter_lints: ^4.0.0

@@ -1,6 +1,24 @@
 ## Project Info
 This project is a part of <b>Remote Kitchen Technical Assessment - Flutter</b>
 
+# Assignment 7: Push Notifications and Firebase Configuration
+
+Objective: Send push notification to register users with FCM into your Flutter app.
+Part 1: Set Up Firebase Project.
+1. Created a Firebase Project.
+2. Added the App to the Firebase Project.
+3. Enabled Firebase Cloud Messaging.
+4. Implemented Sending Push Notification Dynamically (lib\app\common\core\api\firebase_api.dart).
+
+## Screenshots
+
+### Notification permission
+![App Screenshot](https://i.ibb.co/nbTPLZw/FCM-permission.png)
+### Notification when app is in background
+![App Screenshot](https://i.ibb.co/Y7bRy4H/FCM-notification.png)
+### Notification when app is in foreground
+![App Screenshot](https://i.ibb.co/FX0H53g/FCM-IN-APP-Notification.png)
+
 # Assignment 6: Location-Based Services and Notifications
 Objective: Integrate Google Maps into your Flutter app.
 Tasks:

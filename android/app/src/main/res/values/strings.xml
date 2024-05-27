@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="title_activity_main">MyApp</string>
+    <string name="package_name">com.example.remote_kitchen_assessment_app</string>
+    <string name="custom_url_scheme">com.example.remote_kitchen_assessment_app</string>
+    <string name="default_notification_channel_id">com.example.remote_kitchen_assessment_app.urgent</string>
+</resources>
